@@ -19,11 +19,11 @@ spec:
           image: trainwithshubham/flaskapp:latest
           env:
             - name: MYSQL_HOST
-              value: mysql          # this is your mysql's service clusture IP, Make sure to change it with yours
+              value: mydbcluster.cluster-cofjuuuohn23.us-east-1.rds.amazonaws.com          # this is your mysql's service clusture IP, Make sure to change it with yours
             - name: MYSQL_PASSWORD
-              value: "admin"
+              value: "i3bw0y3?B7U#Fs}n0x[#nWbpA3lz"
             - name: MYSQL_USER
-              value: "root"
+              value: "admin"
             - name: MYSQL_DB
               value: "mydb"
           ports:
