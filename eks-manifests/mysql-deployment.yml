@@ -28,7 +28,7 @@ spec:
             - name: MYSQL_USER
               value: "admin"
             - name: MYSQL_PASSWORD
-              value: "admin"
+              value: "i3bw0y3?B7U#Fs}n0x[#nWbpA3lz"
           ports:
             - containerPort: 3306
           volumeMounts:
