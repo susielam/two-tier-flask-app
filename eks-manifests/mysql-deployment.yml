@@ -5,7 +5,7 @@ metadata:
   labels:
     app: mysql
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: mysql
@@ -28,7 +28,7 @@ spec:
             - name: MYSQL_USER
               value: "admin"
             - name: MYSQL_PASSWORD
-              value: "i3bw0y3?B7U#Fs}n0x[#nWbpA3lz"
+              value: "admin"
           ports:
             - containerPort: 3306
           volumeMounts:
